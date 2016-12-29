@@ -71,10 +71,10 @@ public class SelectUserAdapter extends BaseAdapter {
 
         v = new ViewHolder();
 
-        v.title = (TextView) view.findViewById(R.id.name);
-        v.check = (CheckBox) view.findViewById(R.id.check);
-        v.phone = (TextView) view.findViewById(R.id.no);
-        v.imageView = (ImageView) view.findViewById(R.id.pic);
+    //    v.title = (TextView) view.findViewById(R.id.name);
+    //    v.check = (CheckBox) view.findViewById(R.id.check);
+    //    v.phone = (TextView) view.findViewById(R.id.no);
+    //    v.imageView = (ImageView) view.findViewById(R.id.pic);
 
         final SelectUser data = (SelectUser) _data.get(i);
         v.title.setText(data.getName());
